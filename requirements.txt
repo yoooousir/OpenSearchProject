@@ -1,0 +1,5 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+opensearch-py==2.0.1
+sentence-transformers==2.2.2
+numpy==1.23.5
