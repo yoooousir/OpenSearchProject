@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "Flame Sword", "type": "Weapon", "description": "A fiery sword that deals fire damage.", "rarity": "Legendary"},
+    {"id": 2, "name": "Healing Potion", "type": "Consumable", "description": "Restores health over time.", "rarity": "Common"},
+    {"id": 3, "name": "Ice Shield", "type": "Armor", "description": "A shield imbued with ice magic.", "rarity": "Epic"}
+]
