@@ -48,11 +48,11 @@ uvicorn search_api:app --reload
 - 키워드 검색 (예: fire)
   ```http://127.0.0.1:8000/search/?query=fire```
   <p align="center">
-    <img src="screenshot/search_fire.png" alt="factorio thumbnail" width="300"/>
+    <img src="screenshot/search_fire.png" alt="factorio thumbnail" width="350"/>
   </p> 
   
 - 벡터 기반 추천 (예: fire)
   ```http://127.0.0.1:8000/recommend/?query=fire```
   <p align="center">
-    <img src="screenshot/recommend_fire.png" alt="factorio thumbnail" width="300"/>
+    <img src="screenshot/recommend_fire.png" alt="factorio thumbnail" width="350"/>
   </p> 
