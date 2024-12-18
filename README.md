@@ -41,7 +41,18 @@ uvicorn search_api:app --reload
 ### API 테스트 및 결과 페이지
 - 루트 경로
   ```http://127.0.0.1:8000/```
+  <p align="center">
+    <img src="screenshot/home_url.png" alt="factorio thumbnail"/>
+  </p> 
+  
 - 키워드 검색 (예: fire)
   ```http://127.0.0.1:8000/search/?query=fire```
-- 벡터 기반 추천
+  <p align="center">
+    <img src="screenshot/search_fire.png" alt="factorio thumbnail"/>
+  </p> 
+  
+- 벡터 기반 추천 (예: fire)
   ```http://127.0.0.1:8000/recommend/?query=fire```
+  <p align="center">
+    <img src="screenshot/recommend_fire.png" alt="factorio thumbnail"/>
+  </p> 
